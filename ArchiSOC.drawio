@@ -1,0 +1,44 @@
+<mxfile host="Electron" modified="2023-11-10T10:57:56.389Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="xqa3G2-zFJHFc5yFmQ6h" version="22.0.3" type="device">
+  <diagram name="Page-1" id="CnVWK-Rvk3d-dH3outAd">
+    <mxGraphModel dx="1226" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hEZros7t6IMly-jgHw1n-18" value="SOC Infra" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=center;verticalAlign=top;spacingTop=6;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="365" y="130" width="720" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zIygAfhjIDsxSzMjaGLJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hEZros7t6IMly-jgHw1n-15" target="hEZros7t6IMly-jgHw1n-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="725" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-15" value="Monitored Infra" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;spacingTop=6;spacingLeft=10;" parent="1" vertex="1">
+          <mxGeometry x="120" y="510" width="360" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-6" value="&lt;div&gt;Gateway / VPN&lt;/div&gt;&lt;div&gt;Services :&lt;/div&gt;&lt;div&gt;- NTOP-NG&lt;/div&gt;&lt;div&gt;- OPN sense ?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="140.00000000000003" y="570" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-7" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" parent="1" vertex="1">
+          <mxGeometry x="316.51" y="390" width="126.98" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hEZros7t6IMly-jgHw1n-9" target="hEZros7t6IMly-jgHw1n-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-9" value="&lt;div&gt;SIEM / XDR&lt;br&gt;&lt;/div&gt;&lt;div&gt;Services :&lt;/div&gt;&lt;div&gt;- Wazuh&lt;/div&gt;&lt;div&gt;- Praeco Sigma processor&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Log collector :&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Wazu Indexer&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;(includes ELK)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="545" y="190" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zIygAfhjIDsxSzMjaGLJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hEZros7t6IMly-jgHw1n-12" target="hEZros7t6IMly-jgHw1n-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-12" value="&lt;div&gt;Windows Endpoint&lt;/div&gt;&lt;div&gt;- Wazuh agent&lt;/div&gt;&lt;div&gt;- OsQuery&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="325" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hEZros7t6IMly-jgHw1n-26" value="&lt;div&gt;Admin VM&lt;/div&gt;&lt;div&gt;Services :&lt;/div&gt;&lt;div&gt;- Velociraptor&lt;/div&gt;&lt;div&gt;- Thor APT&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="780" y="215" width="190" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
